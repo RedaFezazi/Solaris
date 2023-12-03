@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Solaris</title>
+  </head>
+  <body>
+    <div class="topLayer">
+      <img src="./assets/loading.gif" alt="loading image" />
+    </div>
+    <main class="app">
+      <a class="hidden" href="#" onclick="switchScreen()">
+        <i class="fas fa-arrow-left"></i
+      ></a>
+      <aside class="shadow2 hidden"></aside>
+      <aside class="shadow1 hidden"></aside>
+      <aside id="0" class="sun btn"></aside>
+      <header class="before">
+        <h1 class="white">SOLSYSTEMET</h1>
+        <h3 class="gold">SOLARIS</h3>
+      </header>
+      <section class="planets before">
+        <div id="1" class="btn planet Mercury small"></div>
+        <div id="2" class="btn planet Venus small"></div>
+        <div id="3" class="btn planet Earth small"></div>
+        <div id="4" class="btn planet Mars small"></div>
+        <div id="5" class="btn planet Jupiter big"></div>
+        <div id="6" class="btn planet Saturn big">
+          <div class="ring"></div>
+        </div>
+        <div id="7" class="btn planet Uranus big"></div>
+        <div id="8" class="btn planet Neptune big"></div>
+      </section>
+      <section class="info hidden">
+        <h1 class="white" id="name"></h1>
+        <h3 class="gold" id="latinName"></h3>
+        <p id="discription" class="gray"></p>
+        <hr />
+        <section class="planetInfo">
+          <article>
+            <h4 class="white">OMKRETS</h4>
+            <h6 id="circ" class="gray"></h6>
+          </article>
+          <article>
+            <h4 class="white">KM FRÅN SOLEN</h4>
+            <h6 id="km" class="gray"></h6>
+          </article>
+          <article>
+            <h4 class="white">MAX TEMPERATUR</h4>
+            <h6 id="maxTemp" class="gray"></h6>
+          </article>
+          <article>
+            <h4 class="white">MIN TEMPERATUR</h4>
+            <h6 id="minTemp" class="gray"></h6>
+          </article>
+        </section>
+        <hr />
+        <article>
+          <h4 class="white">MÅNAR</h4>
+          <p class="moons gray"></p>
+        </article>
+      </section>
+      <img src="./assets/Vector.png" alt="" />
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
