@@ -173,21 +173,19 @@ article p {
   display: none;
 }
 
-.Mercury {
+.Merkurius {
   height: 14px;
   width: 14px;
-
   background-color: #888888;
 }
 
 .Venus {
   height: 26px;
   width: 26px;
-
   background-color: #e7cdcd;
 }
 
-.Earth {
+.Jorden {
   height: 28px;
   width: 28px;
   background-color: #428ed4;
@@ -205,7 +203,7 @@ article p {
   background-color: #e29468;
 }
 
-.Saturn {
+.Saturnus {
   position: relative;
   height: 144px;
   width: 144px;
@@ -218,7 +216,7 @@ article p {
   background-color: #c9d4f1;
 }
 
-.Neptune {
+.Neptunus {
   height: 66px;
   width: 66px;
   background-color: #7a91a7;
